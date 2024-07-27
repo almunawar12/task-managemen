@@ -39,7 +39,7 @@ export default function LoginForm() {
                                 id="remember_me"
                                 name="remember_me"
                                 type="checkbox"
-                                className="h-4 w-4 text-indigo-600 focus:ring-indigo-500 border-gray-300 rounded"
+                                className="h-4 w-4 text-indigo-600 focus:ring-primary border-gray-300 rounded"
                             />
                             <label htmlFor="remember_me" className="ml-2 block text-sm text-gray-900">
                                 Remember me
@@ -55,7 +55,7 @@ export default function LoginForm() {
                         <Link href="/dashboard">
                         <button
                             type="submit"
-                            className="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-primary hover:bg-secondary focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                            className="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-primary hover:bg-secondary focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary"
                         >
                             Sign in
                         </button>
